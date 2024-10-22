@@ -1,0 +1,36 @@
+button {
+  background-color: gray;
+  padding: 1rem;
+  color: white;
+}
+
+.window {
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid black;
+}
+
+.calcbody {
+  width: 300px;
+}
+
+.buttonwrap {
+  display: flex;
+  gap: 1rem;
+}
+
+.numbutton {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.numbutton > button {
+  width: calc((100% - 2rem) / 3);
+}
+
+.calcbutton {
+  display: flex;
+  flex-direction: column;
+}
